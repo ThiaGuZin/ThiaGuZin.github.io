@@ -1,0 +1,76 @@
+body {
+    background-color: brown;
+    color: burlywood;
+}
+
+li a{
+    color: burlywood;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: goldenrod;
+}
+
+li a:active{
+    color: red;
+}
+
+footer h2 a {
+    border: 2px ride beige;
+    background-color: burlywood;
+    color: brown;
+    padding: 5px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+footer h2 a:hover{
+    border: 2px ride green;
+    background-color: lightgreen;
+    color: green;
+}
+footer h2 a:active {
+    background-color: green;
+    box-shadow: 0 0 5px lightgreen;
+ }
+
+table#tabela01{
+    border: 2px solid green;
+    border-collapse: collapse;
+    background-color: green;
+    color: black;
+
+}
+
+#tabela01 td{
+    border: 1px solid green;
+    padding: 10px;
+}
+
+#tabela01 tr:nth-child(even) {
+    background-color: greenyellow;
+}
+
+table#tabela02{
+    
+    padding: 5px;
+    background-color: white;
+    color: black;
+    width: 420px;
+    border-collapse: collapse;
+}
+
+#tabela02 td, #tabela02 th {
+    border: 1px solid black;
+    text-align: center;
+    height: 30px;
+}
+
+#tabela02 th{
+    background-color: cadetblue;
+}
+
+#tempo{
+    color: yellow;
+}
+ 
