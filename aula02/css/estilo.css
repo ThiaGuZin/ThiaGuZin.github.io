@@ -1,0 +1,76 @@
+ /*Classes da resposta*/
+ 
+.resposta {
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+ }
+  
+ .errada {
+    background-color: yellow;
+    border: 2px dotted orange;
+    outline: 2px dashed red;
+    color: red;
+ }
+  
+ .certa {
+    background-color: lightgreen;
+    border: 2px dotted green;
+    outline: 2px dashed greenyellow;
+    color: blue;
+ }
+ 
+    /*Estilo CSS embutido dentro da cabeça HTML*/
+    header {
+        background-color: azure;
+        /*https://www.w3schools.com/css/css_border.asp*/
+        border: 3px ridge blueviolet;
+        border-radius: 5px;
+        width: 400px;
+        /*Centralizando a caixa*/
+        margin:20px auto;
+        /*Centralizando o texto dentro d caixa*/
+        text-align: center;
+        box-shadow: 5px 5px 5px lightskyblue;
+    }        
+
+    main input {
+        display: block; /*Com quebra de linha*/
+        margin: 10px;
+        padding: 10px;
+        width: 50px;
+        border-radius: 3px;
+        background-color: lightslategray;
+        color: white;
+        text-align: center;
+    }
+
+    main button {
+        border: 1px solid green;
+        border-radius: 4px;
+        cursor: pointer;
+        font-family: 'Arima Madurai', cursive;
+        font-weight: bold;
+        font-size: 14px;
+        width: 200px;
+        padding:6px 10px;
+        background-color: limegreen;
+        background: linear-gradient(to bottom, 
+                                    limegreen, 
+                                    lightgreen);
+        box-shadow: inset 0px 2px 0px 0px #e3f1e3;
+        color:  #e3f1e3;
+        text-shadow: 0px 1px 0px lightslategray;
+    }
+
+    main button:hover {
+        background: linear-gradient(to bottom, 
+                                    lightgreen, 
+                                    limegreen);
+        text-shadow: 1px 0px 0px lightslategray;
+        box-shadow: inset 0px 0px 0px 2px #e3f1e3;
+    }
+
+    header h1 {
+        font-family: 'Arima Madurai', cursive;
+    }
