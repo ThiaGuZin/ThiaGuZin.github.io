@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Layout CSS</title>
+    <style>
+        p{
+            width: 400px;
+            margin: 0 auto;
+            
+
+        }
+        h1,h2{
+            width: 400px;
+            margin: 0 auto;
+            text-align: center;
+            color: gold;
+        }
+        .border1{
+            text-align: center;
+            border-width: 10px;
+            border-style: double;
+            border-color: gold;
+            border-bottom-right-radius: 15px;
+            border-top-left-radius: 15px;
+        }
+        .gatinho {
+            border: 10px dashed gold;
+         
+            border-radius: 100px;
+            box-shadow: 10px 10px 10px gray;
+            border-radius: 100%;
+            width: 300px;
+            height: 300px;
+            display: block;
+            margin: 0 auto;
+           
+        }
+        .padding1{
+            border: 5px dotted green;
+            width: fit-content;
+            padding: 10px 10px 10px 10px;
+        }
+        #mrg {
+            border: 3px dotted green;
+            padding: 5px;
+            outline: 3px solid gold;
+            margin-top: 30px;
+            margin-right: 80px;
+            margin-bottom: 50px;
+            margin-left: 100px;
+            margin: 0 auto;
+        }
+        .parent{
+            width: 200px;
+            border: 5px solid orangered;
+            margin-top: 30px;;
+            box-sizing: content-box;
+            
+        }
+        .child{
+            border: 10px solid red;
+            padding: 10px;
+            width: 100%;
+            box-sizing: content-box;
+            
+        }
+        .pai{
+            width: 200px;
+            border: 5px dashed gray;
+            box-sizing: border-box;
+
+        }
+        .filho{
+            border: 10px dashed black;
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .gatin {
+         float: left;
+         margin-left: 30px;
+        }
+        .gatin1 {
+         float: right;
+         margin-right: 30px;
+        }
+
+        div.parent-flex {
+        display: flex;
+        }
+        p.child-flex2 {
+        border: 5px solid #7c8e88;
+        padding: 10px;
+        background-color: gray;
+        color:black;
+        text-align: center;
+        margin: 5px;
+        }
+        p.flex-filho2:hover{
+            background-color: whitesmoke;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1><a href="https://frontendmasters.github.io/bootcamp/layout" target= "blank">
+        Aula05 - Layout WEB</a></h1>
+        <div class="parent-flex">
+            <p class="child-flex2">1</p>
+            <p class="child-flex2">2</p>
+            <p class="child-flex2">3</p>
+            <p class="child-flex2">4</p>
+            <p class="child-flex2">5</p>
+            <p class="child-flex2">6</p>
+        </div>
+    <img class="gatin" src="https://placekitten.com/g/100/100">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+     <br/>
+    <img class="gatin1" src="https://placekitten.com/g/100/100">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+     <br/>
+    <p class="border1">
+        Aprendizagem Industrial Programador de Computador - AIPR
+        <br/>
+        SENAI - SC
+    </p>
+    <h2>Borda circular</h2>
+    <img class="gatinho" src="https://placekitten.com/g/100/100">
+    <h2>Padding - preenchimento</h2>
+    <p class="padding1">
+        padding <br/>
+        padding-top <br/>
+        padding-reight <br/>
+        padding-left <br/>
+    </p>
+    <h2>Margin - Margem</h2>
+    <p id="mrg">
+        vou fala qualquer coisa
+        tipo isso ksksksskskskssksksksk
+        sksksskkskskksksksksksksksksksksksksskksksk
+        ksksksskskkskskskssksksskskkssk
+        kssksskskkskskkskskskskssksksskssskssksksksks
+        kskskskssksksksksksskksskksksks
+        kskkskskskskksskkskskksksksksksk
+        skskskskskskksksksskskskskskskks
+        kskskskksksksksksksskskskskskskks
+        skskkkskskskssksksskskkskssksskskkskskss
+        ksksksssksksksksksksksskskskskksk
+        kskskssksksksskskskkskskskskskks
+        skksksk escrevendo qualquer cosia 
+        sjkssksksksskssksksksksskskskkskskskskskks
+        isso
+        isso
+        isso
+        isso
+        isso
+    </p>
+    <h2>
+        Tamanho do caixa
+    </h2>
+    <section class= "pai">
+        <p> Elemnto pai</p>
+    <section class= "filho">
+        <p> Elemnto filho</p>
+    </section>
+    </section>
+
+    <section class= "parent">
+        <p> Parent element</p>
+    <section class= "child">
+        <p> Child element</p>
+    </section>
+    </section>
+    
+    <div class="parent-flex">
+        <p class="child-flex">The paragraph is the child, or flex item, while the div is the parent, or flex container.</p>
+    </div>
+
+    
+</body>
+</html>

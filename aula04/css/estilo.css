@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Luckiest+Guy&display=swap');
+/*Cor de fundo do corpo da página e cor de texto*/
+body {
+    color: brown;/*cor de texto*/
+    background-color: bisque;/*cor de texto*/
+    text-shadow: 2px 2px 5px black;/*sombra do texto*/
+}
+
+h1 {
+    color: darkred;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 400%;
+    text-shadow: 3px 3px 5px black;
+    text-align: center;
+}
+
+/*Seletor h2*/
+h2 { /*Propriedades do h2*/
+    font-family: 'Dancing Script', cursive;
+    font-size: 150%;
+    text-align: center;
+}
+
+/*Classe usa-se o PONTO*/
+img.logo {
+    height: 200px;
+    width: 200px;    
+    margin-left: 170px;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+
+
+img.logo:hover {
+    box-shadow:0 0 10px black;
+}
+/*Identificador usa-se a HASH*/
+img#imgPrincipal {
+    display: block;
+    margin:0 auto;
+    border-radius:10px;
+    box-shadow: 0 0 10px black;
+}
+em.vermelho{
+    color: red
+}
+p{
+    font-size: 28px;
+    color: yellow
+}

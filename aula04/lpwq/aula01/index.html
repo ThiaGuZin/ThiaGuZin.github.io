@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depurando código em javascript</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai&display=swap" rel="stylesheet">
+
+    <style>
+        /*Estilo CSS embutido dentro da cabeça HTML*/
+        header {
+           background-color: azure;
+           /*https://www.w3schools.com/css/css_border.asp*/
+           border: 3px ridge blueviolet;
+           border-radius: 5px;
+           width: 400px;
+           /*Centralizando a caixa*/
+           margin:20px auto;
+           /*Centralizando o texto dentro da caixa*/
+           text-align: center;
+           box-shadow: 5px 5px 5px lightskyblue;
+
+        }
+
+            
+            main input 
+            
+            input {
+           display: block; /*Com quebra de linha*/
+           margin: 10px;
+           padding: 10px;
+           width: 50px;
+           border-radius: 3px;
+           background-color: lightslategray;
+           color: white;
+           text-align: center;
+            }
+        
+
+            main button {
+           border: 1px solid green;
+           border-radius: 4px;
+           cursor: pointer;
+           font-family: 'Arima Madurai', cursive;
+           font-weight: bold;
+           font-size: 14px;
+           width: 200px;
+           padding:6px 10px;
+           background-color: limegreen;
+           background: linear-gradient(to bottom,
+                                       limegreen,
+                                       lightgreen);
+           box-shadow: inset 0px 2px 0px 0px #e3f1e3;
+           color:  #e3f1e3;
+           text-shadow: 0px 1px 0px lightslategray;
+       }
+ 
+       main button:hover {
+           background: linear-gradient(to bottom,
+                                       lightgreen,
+                                       limegreen);
+           text-shadow: 1px 0px 0px lightslategray;
+           box-shadow: inset 0px 0px 0px 2px #e3f1e3;
+       }
+
+
+            
+            header h1 {
+            font-family: 'Arima Madurai', cursive;
+            }
+
+
+        
+    </style>
+</head>
+<body>
+    <!--Documento HTML-->
+    <header>
+        <h1>Depurando código com o Chrome Devtools - F12</h1>
+
+    </header>
+    <main class="container">
+        <input type="text" id="num1" autofocus tabindex="1">
+        <input type="text" id="num2" tabindex="2">
+  
+        <button type="submit" id="btnSomar" tabindex="3" border:10px>
+        <p class="resposta">Resultado da operação</p>
+
+    </main>
+</body>
+</html>
