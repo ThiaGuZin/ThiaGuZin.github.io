@@ -1,0 +1,44 @@
+body{
+    background-color:blueviolet;
+    color: white;
+}
+
+h1{
+    background-color: rebeccapurple;
+    color: black;
+    border: solid black;
+}
+h3{
+    background-color: white;
+    color:red;
+    border: solid black;
+}
+p{
+    background-color: white;
+    color: black;
+    border: ridge green;
+}
+@media (max-width: 600px) {
+  body{
+      background: red;
+      color: yellow;
+      }
+
+      h1{
+        background-color: black;
+        color:white;
+        border: solid green;
+    }
+    h3{
+        background-color: white;
+        color:gray;
+        border: solid purple;
+    }
+    p{
+        background-color: yellow;
+        color:green;
+        border: ridge green;
+    }
+};
+
+
