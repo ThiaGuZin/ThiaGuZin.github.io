@@ -1,0 +1,12 @@
+body{
+    background-color: blueviolet;
+    color: yellow;
+}
+.nmr1,.nmr5, .nmr4, .nmr3, .nmr2 {
+    color:black;
+    width: fit-content;
+    border: 3px solid blue;
+    border-radius: 5% ;
+    padding:10px 10px;
+    background-color: cadetblue; 
+}
