@@ -1,0 +1,50 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+    color: blueviolet;
+}
+
+.colunas{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 20vh 70vh 10vh;
+    grid-template-areas:"h h"
+    "m a"
+     "f f";
+
+    
+    
+}
+header{
+    background-color: brown;
+    
+    grid-area:h;
+    
+    
+
+}
+main{
+    background-color:blue;
+
+    grid-area:m;
+    
+    
+}
+aside{
+    background-color: yellow;
+
+    grid-area:a;
+    
+    
+
+}
+footer{
+    background-color: white;
+    
+    grid-area:f;
+    
+    
+
+}
