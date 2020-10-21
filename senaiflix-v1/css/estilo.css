@@ -1,0 +1,101 @@
+
+:root{
+    --vermelho:#E50914;
+    --preto:#141414;
+}
+
+/*Ressetando o css padrão*/
+*{
+    margin: 0;
+    padding: 0;
+    /*tamanho da caixa*/
+
+    box-sizing: border-box;
+
+}
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color:#fff;
+
+}
+header .logo{
+    color: var(--vermelho);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 5px;
+
+}
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+    cursor: pointer;
+}
+header nav a:hover{
+    color: #fff;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*Estilizando a parte Principal*/
+.filme-principal{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),
+        url('../img/house-of-cards.jpg') ;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+} 
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.titulo{
+    font-size: 40px;
+    margin-top: 15%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    margin-left: 20px;
+}
+/*Estilizando os botões*/
+.botao{
+    background-color: rgba(0,0,0,.40);
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    margin-right: 8px; 
+    font-size: 12px;
+    cursor: pointer;
+    transition: 300ms ease all;
+}
+.botao:hover{
+    background-color: #fff;
+    color: var(--preto);
+}
+@media screen and (max-width:800px){
+    header .container{
+        flex-direction: column;
+    }
+    header .logo{
+        font-size: 24px;
+    }
+    .botao{
+        margin-top: 5px;
+        width: 140px;
+        height: 60px;
+    }
+    .filme-principal {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 500px;
+    }
+}
