@@ -1,0 +1,91 @@
+body{
+    background-color:purple;
+    
+}
+/*CSS do h1*/
+.h1{
+    background-color: green;
+    color: white;
+    border: 5px solid white;
+    
+    
+}
+/*CSS do botao*/
+.btn {
+    background-color:greenyellow;
+    color:black;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    border:none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  
+  /* CSS do botao*/
+   .btn:hover {
+    background-color: green;
+    color: white;
+    border: 2px solid white;
+    outline: none;
+
+
+  }
+  
+  /* CSS do painel */
+  .painel {
+    padding: 0 3px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  /*CSS dos valores*/
+  .nmr:hover{
+    background-color: green;
+    color: white;
+    border: 3px solid greenyellow;
+    
+  }
+  /*CSS dos meses*/
+  .mes{
+      color: green;
+      background-color: yellow;
+      
+  }
+  .tr{
+      background-color: gray;
+      color: white;
+      border: 3px solid black;
+  }
+  .caixa1{
+      background-color: red;
+      width: 45px;
+      height: 20px;
+      color: white;
+  }
+  .btn2:hover {
+    background-color: green;
+    color: white;
+    border: 2px solid white;
+    outline: none;
+  }
+  .btn2 {
+    background-color:yellow;
+    color:black;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    border:none;
+    outline: none;
+    transition: 0.4s;
+  }
+  .ativa{
+    background-color: green;
+    color: white;
+    
+    border: 3px solid white;
+    outline: none;
+  }
